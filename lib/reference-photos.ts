@@ -34,45 +34,58 @@ const shareAlikeLicense = {
   url: 'https://creativecommons.org/licenses/by-sa/4.0/',
 };
 
+const attributionLicense = {
+  name: 'CC BY 2.0',
+  url: 'https://creativecommons.org/licenses/by/2.0/',
+};
+
+const publicDomainLicense = {
+  name: 'Domínio público',
+  url: 'https://creativecommons.org/publicdomain/mark/1.0/',
+};
+
 export const servicePhotos: Record<ServicePhotoKey, ServicePhoto> = {
   corrimaos: {
-    src: '/services/guarda-corpo.jpg',
-    alt: 'Guarda-corpo em ferro com corrimão e desenhos curvos em varanda — referência',
-    author: 'Wallace Chuck',
+    src: '/services/corrimao-brasil.jpg',
+    alt: 'Corrimãos tubulares em rampas de acesso de uma escola brasileira — foto de referência',
+    author: 'Nadjelena',
     source:
-      'https://www.pexels.com/photo/black-metal-railings-in-the-balcony-13290888/',
-    width: 1200,
-    height: 1800,
-    position: '50% 62%',
-  },
-  escadas: {
-    src: '/services/escada-metalica.jpg',
-    alt: 'Escada caracol de aço galvanizado com corrimão e guarda-corpo — referência',
-    author: 'Trissi1234',
-    source:
-      'https://commons.wikimedia.org/wiki/File:Feuerverzinkte_Wendeltreppe.jpg',
-    width: 960,
-    height: 965,
-    fit: 'contain',
+      'https://commons.wikimedia.org/wiki/File:Pr%C3%A9dio_do_IEMA_Bacelar_Portela.jpg',
+    width: 1280,
+    height: 338,
+    position: '50% center',
     license: shareAlikeLicense,
   },
-  portoes: {
-    src: '/services/portao-residencial.jpg',
-    alt: 'Portão residencial preto com duas folhas e barras verticais de metal — referência',
-    author: 'The Drink Break',
+  escadas: {
+    src: '/services/escada-emergencia-brasil.jpg',
+    alt: 'Escada metálica externa de emergência instalada em prédio de Curitiba — foto de referência',
+    author: 'Luis Dantas',
     source:
-      'https://unsplash.com/photos/a-gated-driveway-with-a-house-in-the-background-pTkARwGPMLg',
-    width: 1600,
-    height: 1067,
-    position: '70% 100%',
+      'https://commons.wikimedia.org/wiki/File:Escadas_de_incendio_TRT_Curitiba_01.jpg',
+    width: 960,
+    height: 1280,
+    position: '50% 48%',
+    license: publicDomainLicense,
+  },
+  portoes: {
+    src: '/services/portao-ferro-brasil.jpg',
+    alt: 'Portão de ferro trabalhado fotografado em São Paulo — foto de referência',
+    author: 'Blond Fox',
+    source:
+      'https://www.pexels.com/photo/ornate-iron-gate-in-sao-paulo-brazil-34856770/',
+    width: 1400,
+    height: 2100,
+    position: '50% 53%',
   },
   grades: {
-    src: '/services/grade-janela.jpg',
-    alt: 'Grade branca de barras retas instalada em janela residencial — referência',
-    author: 'Mike Scott',
-    source: 'https://www.pexels.com/photo/a-window-with-metal-grills-6673302/',
-    width: 1600,
-    height: 1067,
+    src: '/services/grade-janela-brasil.jpg',
+    alt: 'Grade preta de barras retas instalada em janela residencial de Maceió — foto de referência',
+    author: 'Giovanni lucas ft',
+    source:
+      'https://www.pexels.com/photo/a-dog-sitting-behind-a-barred-window-20195822/',
+    width: 1200,
+    height: 1600,
+    position: '50% 36%',
   },
   estruturas: {
     src: '/services/estrutura-metalica.jpg',
@@ -86,13 +99,14 @@ export const servicePhotos: Record<ServicePhotoKey, ServicePhoto> = {
     license: shareAlikeLicense,
   },
   coberturas: {
-    src: '/services/cobertura-metalica.jpg',
-    alt: 'Cobertura de estacionamento com pilares e vigas de aço aparentes — referência',
-    author: 'MAK',
+    src: '/services/cobertura-quadra-brasil.jpg',
+    alt: 'Cobertura metálica com treliças aparentes em quadra esportiva na Bahia — foto de referência',
+    author: 'Jaques Wagner Governador',
     source:
-      'https://unsplash.com/photos/cars-parked-under-a-modern-carport-on-a-sunny-day-3u5Lco_0gPQ',
-    width: 1800,
-    height: 1200,
-    position: '30% 65%',
+      'https://commons.wikimedia.org/wiki/File:Gin%C3%A1sio_de_Esporte_de_Ubat%C3%A3_%C3%A9_reinaugurado_(3684447515).jpg',
+    width: 1280,
+    height: 854,
+    position: '50% 20%',
+    license: attributionLicense,
   },
 };

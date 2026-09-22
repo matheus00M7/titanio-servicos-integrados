@@ -50,12 +50,12 @@ assert.match(homeHtml, /tiramos as medidas/);
 assert.doesNotMatch(homeHtml, /soldagem-oficina.png|escada-corrimao.png/);
 await request('/soldagem-real.jpeg');
 for (const photo of [
-  'guarda-corpo',
-  'escada-metalica',
-  'portao-residencial',
-  'grade-janela',
+  'corrimao-brasil',
+  'escada-emergencia-brasil',
+  'portao-ferro-brasil',
+  'grade-janela-brasil',
   'estrutura-metalica',
-  'cobertura-metalica',
+  'cobertura-quadra-brasil',
 ]) {
   assert.ok(
     homeHtml.includes(`/services/${photo}.jpg`),
@@ -71,14 +71,13 @@ assert.match(
 await request('/api/trabalhos?painel=1', {}, 403);
 await request(
   '/api/trabalhos',
-  { method: 'POST', body: form(), headers: { Origin: base } },
+  { method: 'POST', headers: { Origin: base } },
   403,
 );
 await request(
   '/api/trabalhos',
   {
     method: 'POST',
-    body: form(),
     headers: { ...admin, Origin: 'https://wrong.example' },
   },
   403,

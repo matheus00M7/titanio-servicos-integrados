@@ -1,28 +1,28 @@
 # Fotografias de referência
 
-Fotografias reais pesquisadas e inspecionadas em setembro de 2026, substituindo a ambientação gerada por IA. Em 14 de setembro, a seção de serviços passou a mostrar seis exemplos fotográficos. As imagens não representam funcionários, obras, clientes, recomendações ou certificações da Titânio. Há indicação de referência e crédito junto às fotos. Não são cadastradas na tabela de trabalhos da empresa.
+Fotografias reais pesquisadas e inspecionadas em setembro de 2026, substituindo a ambientação gerada por IA. Em 21 de setembro, cinco das seis referências foram trocadas por cenas fotografadas no Brasil, com arquitetura e soluções mais próximas da realidade dos clientes atendidos pela empresa. As imagens não representam funcionários, obras, clientes, recomendações ou certificações da Titânio. Há indicação de referência e crédito junto às fotos. Não são cadastradas na tabela de trabalhos da empresa.
 
 ## Fotos da grade de serviços
 
-Os arquivos abaixo não foram retocados. Pexels e Unsplash são versões reduzidas fornecidas pelos próprios bancos e recebem enquadramento responsivo. Os dois arquivos Wikimedia são exibidos inteiros, sem recorte ou alterações além da escala de exibição. A escada usa a miniatura de 960 px gerada pelo Wikimedia; a estrutura usa o arquivo original. Os créditos e links CC BY-SA 4.0 estão junto às respectivas imagens, que permanecem sob essa licença.
+Os arquivos abaixo não foram retocados. As versões reduzidas fornecidas pelos próprios bancos recebem apenas enquadramento responsivo por CSS. Os créditos e os links das licenças Creative Commons aparecem junto às respectivas imagens.
 
 | Serviço / arquivo em `public/services/` | Autor e fonte                                                                                                         | Licença                                                         |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Guarda-corpo — `guarda-corpo.jpg`       | [Wallace Chuck / Pexels](https://www.pexels.com/photo/black-metal-railings-in-the-balcony-13290888/)                  | [Pexels](https://www.pexels.com/license/)                       |
-| Escada — `escada-metalica.jpg`          | [Trissi1234 / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Feuerverzinkte_Wendeltreppe.jpg)             | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Portão — `portao-residencial.jpg`       | [The Drink Break / Unsplash](https://unsplash.com/photos/a-gated-driveway-with-a-house-in-the-background-pTkARwGPMLg) | [Unsplash](https://unsplash.com/license)                        |
-| Grade — `grade-janela.jpg`              | [Mike Scott / Pexels](https://www.pexels.com/photo/a-window-with-metal-grills-6673302/)                               | [Pexels](https://www.pexels.com/license/)                       |
-| Estrutura — `estrutura-metalica.jpg`    | [Syibeehive / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Prefab-Warehouse-Mezzanine.jpg)              | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| Cobertura — `cobertura-metalica.jpg`    | [MAK / Unsplash](https://unsplash.com/photos/cars-parked-under-a-modern-carport-on-a-sunny-day-3u5Lco_0gPQ)           | [Unsplash](https://unsplash.com/license)                        |
+| Corrimão — `corrimao-brasil.jpg` | [Nadjelena / Wikimedia Commons — IEMA Bacelar Portela, São Luís](https://commons.wikimedia.org/wiki/File:Pr%C3%A9dio_do_IEMA_Bacelar_Portela.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Escada — `escada-emergencia-brasil.jpg` | [Luis Dantas / Wikimedia Commons — TRT Curitiba](https://commons.wikimedia.org/wiki/File:Escadas_de_incendio_TRT_Curitiba_01.jpg) | [Domínio público](https://creativecommons.org/publicdomain/mark/1.0/) |
+| Portão — `portao-ferro-brasil.jpg` | [Blond Fox / Pexels — São Paulo](https://www.pexels.com/photo/ornate-iron-gate-in-sao-paulo-brazil-34856770/) | [Pexels](https://www.pexels.com/license/) |
+| Grade — `grade-janela-brasil.jpg` | [Giovanni lucas ft / Pexels — Maceió](https://www.pexels.com/photo/a-dog-sitting-behind-a-barred-window-20195822/) | [Pexels](https://www.pexels.com/license/) |
+| Estrutura — `estrutura-metalica.jpg` | [Syibeehive / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Prefab-Warehouse-Mezzanine.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| Cobertura — `cobertura-quadra-brasil.jpg` | [Jaques Wagner Governador / Wikimedia Commons — ginásio de Ubatã, Bahia](https://commons.wikimedia.org/wiki/File:Gin%C3%A1sio_de_Esporte_de_Ubat%C3%A3_%C3%A9_reinaugurado_(3684447515).jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
 
 URLs dos arquivos obtidos:
 
-- Guarda-corpo: https://images.pexels.com/photos/13290888/pexels-photo-13290888.jpeg?auto=compress&cs=tinysrgb&w=1200
-- Escada: https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Feuerverzinkte_Wendeltreppe.jpg/960px-Feuerverzinkte_Wendeltreppe.jpg
-- Portão: https://images.unsplash.com/photo-1645005049035-c35644b627ba?auto=format&fit=crop&fm=jpg&q=85&w=1600
-- Grade: https://images.pexels.com/photos/6673302/pexels-photo-6673302.jpeg?auto=compress&cs=tinysrgb&w=1600
+- Corrimão: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pr%C3%A9dio_do_IEMA_Bacelar_Portela.jpg/1280px-Pr%C3%A9dio_do_IEMA_Bacelar_Portela.jpg
+- Escada: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Escadas_de_incendio_TRT_Curitiba_01.jpg/960px-Escadas_de_incendio_TRT_Curitiba_01.jpg
+- Portão: https://images.pexels.com/photos/34856770/pexels-photo-34856770.jpeg?auto=compress&cs=tinysrgb&w=1400
+- Grade: https://images.pexels.com/photos/20195822/pexels-photo-20195822.jpeg?auto=compress&cs=tinysrgb&w=1200
 - Estrutura: https://upload.wikimedia.org/wikipedia/commons/4/4d/Prefab-Warehouse-Mezzanine.jpg
-- Cobertura: https://images.unsplash.com/photo-1756719033808-1a61300438f2?auto=format&fit=crop&fm=jpg&q=85&w=1800
+- Cobertura: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Gin%C3%A1sio_de_Esporte_de_Ubat%C3%A3_%C3%A9_reinaugurado_%283684447515%29.jpg/1280px-Gin%C3%A1sio_de_Esporte_de_Ubat%C3%A3_%C3%A9_reinaugurado_%283684447515%29.jpg
 
 ## Soldagem
 
