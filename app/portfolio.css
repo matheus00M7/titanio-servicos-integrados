@@ -82,8 +82,73 @@
   text-decoration: underline;
   text-underline-offset: 4px;
 }
-.service-photo-grid + .services-note {
+.integrated-services {
   margin-top: 1.5rem;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  background: #111719;
+  color: #f5f4ef;
+  border: 1px solid #303638;
+}
+.integrated-services-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.integrated-services-heading > svg {
+  flex: none;
+  margin-top: 0.2rem;
+  color: #d6a943;
+}
+.integrated-services-heading h3 {
+  max-width: 670px;
+  margin-top: 0.4rem;
+  font-family: var(--font-heading);
+  font-size: clamp(1.6rem, 2.5vw, 2.4rem);
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+}
+.integrated-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-block: 2rem 1.5rem;
+  border-top: 1px solid #3b454b;
+}
+.integrated-services-grid article {
+  min-width: 0;
+  padding: 1.5rem 1.5rem 0 0;
+}
+.integrated-services-grid article + article {
+  padding-left: 1.5rem;
+  border-left: 1px solid #3b454b;
+}
+.integrated-services-grid span {
+  color: #d6a943;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.integrated-services-grid h4 {
+  margin-top: 0.55rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.25;
+}
+.integrated-services-grid p {
+  margin-top: 0.6rem;
+  color: #b9c1c5;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.integrated-services > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 44px;
+  color: #f2b528;
+  font-size: 0.9rem;
+  font-weight: 750;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 .gallery-section.gallery-instagram-only {
   padding-block: 3.5rem;
@@ -122,6 +187,18 @@
   .service-photo-grid {
     grid-template-columns: 1fr;
     gap: 1.25rem;
+  }
+  .integrated-services-grid {
+    grid-template-columns: 1fr;
+    margin-block: 1.5rem 1rem;
+  }
+  .integrated-services-grid article,
+  .integrated-services-grid article + article {
+    padding: 1rem 0;
+    border-left: 0;
+  }
+  .integrated-services-grid article + article {
+    border-top: 1px solid #3b454b;
   }
   .photo-service-body {
     padding: 1.25rem;
@@ -395,12 +472,25 @@
 .footer-inner > p {
   display: none;
 }
+.footer-inner > .footer-business {
+  display: block;
+  grid-column: 1 / -1;
+  padding-top: 1.25rem;
+  border-top: 1px solid #303638;
+  color: #a2a5a6;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.65;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: none;
+}
 .image-credits {
   grid-column: 1 / -1;
   justify-self: end;
   max-width: 560px;
   color: #71777a;
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   line-height: 1.6;
   text-align: right;
 }

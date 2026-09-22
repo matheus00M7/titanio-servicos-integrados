@@ -1,5 +1,4 @@
 /* oxlint-disable nextjs/no-img-element -- Local licensed photos have explicit dimensions and loading priority. */
-import Link from 'next/link';
 import {
   ArrowDownRight,
   ArrowRight,
@@ -67,6 +66,23 @@ const services: {
     title: 'Coberturas metálicas',
     description:
       'Coberturas para garagens, corredores, quadras e áreas de convivência.',
+  },
+];
+const integratedServices = [
+  {
+    title: 'Fachadas em ACM',
+    description:
+      'Revestimentos e acabamentos de fachadas para espaços comerciais e corporativos.',
+  },
+  {
+    title: 'Alvenaria e concreto',
+    description:
+      'Etapas de construção e adequação que acompanham a execução do projeto.',
+  },
+  {
+    title: 'Reformas e acabamentos',
+    description:
+      'Ajustes, pintura e finalização para entregar o espaço pronto para uso.',
   },
 ];
 const processSteps = [
@@ -278,15 +294,26 @@ export default function Home() {
               );
             })}
           </div>
-          <div className="services-note">
-            <HardHat aria-hidden="true" size={22} />
-            <p>
-              <strong>Também cuidamos de outras etapas da obra.</strong>
-              <br />
-              Fachadas em ACM, alvenaria, concreto, reformas e acabamentos.
-            </p>
+          <div className="integrated-services">
+            <div className="integrated-services-heading">
+              <HardHat aria-hidden="true" size={24} />
+              <div>
+                <p className="photo-service-kicker">Serviços integrados</p>
+                <h3>Também cuidamos de outras etapas da obra.</h3>
+              </div>
+            </div>
+            <div className="integrated-services-grid">
+              {integratedServices.map(({ title, description }, index) => (
+                <article key={title}>
+                  <span>0{index + 1}</span>
+                  <h4>{title}</h4>
+                  <p>{description}</p>
+                </article>
+              ))}
+            </div>
             <a href={whatsappUrl} target="_blank" rel="noreferrer">
-              Consultar a equipe <ArrowRight aria-hidden="true" size={18} />
+              Conversar sobre sua obra{' '}
+              <ArrowRight aria-hidden="true" size={18} />
             </a>
           </div>
         </div>
@@ -394,7 +421,6 @@ export default function Home() {
             </span>
           </div>
           <div className="footer-links">
-            <Link href="/painel">Gerenciar trabalhos</Link>
             <a href={instagramUrl} target="_blank" rel="noreferrer">
               <AtSign aria-hidden="true" size={17} /> @titaniumserralheria
             </a>
@@ -402,6 +428,10 @@ export default function Home() {
               <MessageCircle aria-hidden="true" size={17} /> WhatsApp
             </a>
           </div>
+          <p className="footer-business">
+            Razão social: TITANIUM SOLUCOES E SERVICOS INTEGRADOS LTDA · CNPJ
+            67.884.255/0001-35 · São Paulo/SP
+          </p>
           <details className="image-credits">
             <summary>Créditos de imagem</summary>
             <p>
