@@ -1,6 +1,6 @@
 # Fotografias de referência
 
-Fotografias reais pesquisadas e inspecionadas em setembro de 2026, substituindo a ambientação gerada por IA. Em 21 de setembro, cinco das seis referências foram trocadas por cenas fotografadas no Brasil, com arquitetura e soluções mais próximas da realidade dos clientes atendidos pela empresa. As imagens não representam funcionários, obras, clientes, recomendações ou certificações da Titânio. Há indicação de referência e crédito junto às fotos. Não são cadastradas na tabela de trabalhos da empresa.
+Fotografias reais pesquisadas e inspecionadas em setembro de 2026, substituindo a ambientação gerada por IA. Em 21 de setembro, cinco das seis referências foram trocadas por cenas fotografadas no Brasil, com arquitetura e soluções mais próximas da realidade dos clientes atendidos pela empresa. As imagens não representam funcionários, obras, clientes, recomendações ou certificações da Titanium. Há indicação de referência e crédito junto às fotos. Não são cadastradas na tabela de trabalhos da empresa.
 
 ## Fotos da grade de serviços
 
@@ -39,7 +39,7 @@ URLs dos arquivos obtidos:
 - Fonte: https://unsplash.com/photos/modern-exterior-metal-staircase-with-a-complex-architectural-structure-UQVNori3VB8
 - Imagem: https://images.unsplash.com/photo-1781456133857-6f00b517c7e5
 - Licença: https://unsplash.com/license
-- A fonte identifica fotografia analógica na University of East Anglia, Norwich, Reino Unido. Não é uma obra em São Paulo nem da Titânio.
+- A fonte identifica fotografia analógica na University of East Anglia, Norwich, Reino Unido. Não é uma obra em São Paulo nem da Titanium.
 
 ## Estrutura de cobertura anterior — não exibida
 

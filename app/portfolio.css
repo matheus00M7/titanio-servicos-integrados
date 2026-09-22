@@ -230,12 +230,6 @@
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-.footer-logo {
-  width: 76px;
-  height: 76px;
-  object-fit: contain;
-  flex: none;
-}
 .focused-services .service-card {
   grid-column: auto;
   min-height: 340px;

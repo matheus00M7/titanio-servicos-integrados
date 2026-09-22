@@ -1,4 +1,4 @@
-# Titânio Serviços Integrados
+# Titanium Serviços Integrados
 
 Site institucional e portfólio para uma empresa de serralheria e serviços de obra na Grande São Paulo.
 
@@ -45,7 +45,7 @@ Dados e fotos cadastrados no Site anterior não fazem parte deste código. Se ex
 
 ## Imagens e marca
 
-As fotografias de referência não representam funcionários nem obras da Titânio. Autores, origens e licenças estão documentados em [`IMAGE-NOTES.md`](IMAGE-NOTES.md). O logotipo pertence à empresa e não é oferecido como ativo reutilizável por terceiros.
+As fotografias de referência não representam funcionários nem obras da Titanium. Autores, origens e licenças estão documentados em [`IMAGE-NOTES.md`](IMAGE-NOTES.md). O logotipo pertence à empresa e não é oferecido como ativo reutilizável por terceiros.
 
 ## Próxima melhoria
 

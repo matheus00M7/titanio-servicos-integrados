@@ -192,7 +192,7 @@ export function PortfolioManager() {
         <Link href="/" className="brand-lockup">
           <span className="brand-mark">T</span>
           <span>
-            <strong>TITÂNIO</strong>
+            <strong>TITANIUM</strong>
             <small>Painel de trabalhos</small>
           </span>
         </Link>

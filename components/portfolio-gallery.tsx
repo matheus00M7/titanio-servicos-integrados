@@ -54,7 +54,7 @@ export function MobileMenu() {
           <Menu size={24} />
         </SheetTrigger>
         <SheetContent className="navigation-sheet" showCloseButton={false}>
-          <SheetTitle>TITÂNIO</SheetTitle>
+          <SheetTitle>TITANIUM</SheetTitle>
           <SheetDescription>
             Serviços integrados • Grande São Paulo
           </SheetDescription>
@@ -157,7 +157,7 @@ function ProjectViewerContent({ project, open, onClose }: ViewerProps) {
               </DialogTitle>
               <DialogDescription className="viewer-description">
                 {project.description ||
-                  'Conheça os detalhes deste trabalho da Titânio.'}
+                  'Conheça os detalhes deste trabalho da Titanium.'}
               </DialogDescription>
               {project.location && (
                 <p className="gallery-location">
@@ -229,7 +229,7 @@ export function PortfolioGallery() {
         <div className="section-shell instagram-work-strip">
           <div>
             <p className="eyebrow">
-              <span /> Trabalhos da Titânio
+              <span /> Trabalhos da Titanium
             </p>
             <h2>Veja nossas obras no Instagram.</h2>
             <p>
@@ -256,14 +256,14 @@ export function PortfolioGallery() {
         <div className="gallery-heading">
           <div>
             <p className="eyebrow">
-              <span /> Feito pela Titânio
+              <span /> Feito pela Titanium
             </p>
             <h2 className="section-title">Nossos trabalhos, de perto.</h2>
           </div>
           <div>
             <p>Veja os serviços realizados e os detalhes do acabamento.</p>
             <a href={instagramUrl} target="_blank" rel="noreferrer">
-              Trabalhos da Titânio no Instagram <ArrowUpRight size={18} />
+              Trabalhos da Titanium no Instagram <ArrowUpRight size={18} />
             </a>
           </div>
         </div>

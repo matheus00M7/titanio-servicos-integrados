@@ -1,4 +1,4 @@
-// The hero uses a licensed reference photo. Service cards use Titânio's own
+// The hero uses a licensed reference photo. Service cards use Titanium's own
 // photographs, except for the metal-structure card kept at the owner's request.
 export const weldingPhoto = {
   src: '/soldagem-real.jpeg',
@@ -30,28 +30,28 @@ type ServicePhoto = {
 export const servicePhotos: Record<ServicePhotoKey, ServicePhoto> = {
   corrimaos: {
     src: '/trabalhos/corrimaos-escada-verde.jpeg',
-    alt: 'Corrimãos metálicos verdes instalados em escada pela Titânio',
+    alt: 'Corrimãos metálicos verdes instalados em escada pela Titanium',
     width: 1280,
     height: 720,
     position: '50% 48%',
   },
   escadas: {
     src: '/trabalhos/escada-metalica-preta.jpeg',
-    alt: 'Escada metálica preta com corrimãos e fechamento em tela executada pela Titânio',
+    alt: 'Escada metálica preta com corrimãos e fechamento em tela executada pela Titanium',
     width: 1280,
     height: 720,
     position: '50% 54%',
   },
   portoes: {
     src: '/trabalhos/portao-metalico-cinza.jpeg',
-    alt: 'Conjunto de portões metálicos cinza fabricado e instalado pela Titânio',
+    alt: 'Conjunto de portões metálicos cinza fabricado e instalado pela Titanium',
     width: 1280,
     height: 960,
     position: '50% 50%',
   },
   grades: {
     src: '/trabalhos/gradil-branco.jpeg',
-    alt: 'Gradil metálico branco instalado pela Titânio no perímetro de um condomínio',
+    alt: 'Gradil metálico branco instalado pela Titanium no perímetro de um condomínio',
     width: 1599,
     height: 899,
     position: '50% 50%',
@@ -65,7 +65,7 @@ export const servicePhotos: Record<ServicePhotoKey, ServicePhoto> = {
   },
   coberturas: {
     src: '/trabalhos/cobertura-metalica.jpeg',
-    alt: 'Cobertura metálica com telhas e treliças executada pela Titânio',
+    alt: 'Cobertura metálica com telhas e treliças executada pela Titanium',
     width: 1280,
     height: 720,
     position: '50% 45%',

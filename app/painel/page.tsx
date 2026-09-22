@@ -4,7 +4,7 @@ import { isAdmin } from '@/lib/portfolio-server';
 import { PortfolioManager } from '@/components/portfolio-manager';
 export const dynamic = 'force-dynamic';
 export const metadata = {
-  title: 'Painel de trabalhos | Titânio',
+  title: 'Painel de trabalhos | Titanium Serviços Integrados',
   robots: { index: false, follow: false },
 };
 export default async function PanelPage() {
@@ -12,7 +12,7 @@ export default async function PanelPage() {
   if (!user || !(await isAdmin()))
     return (
       <main className="panel-access">
-        <p className="eyebrow">Titânio • Área de gestão</p>
+        <p className="eyebrow">Titanium • Área de gestão</p>
         <h1>
           Seu portfólio,
           <br />

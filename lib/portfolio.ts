@@ -107,7 +107,7 @@ export const instagramUrl = `https://www.instagram.com/${instagramHandle}/`;
 export function quoteUrl(subject?: string) {
   return `https://wa.me/5511948507339?text=${encodeURIComponent(
     subject
-      ? `Olá! Vi ${subject} no site da Titânio e gostaria de conversar sobre meu projeto e combinar uma avaliação no local.`
-      : 'Olá! Vim pelo site da Titânio Serviços Integrados e gostaria de conversar sobre meu projeto e combinar uma avaliação no local.',
+      ? `Olá! Vi ${subject} no site da Titanium Serviços Integrados e gostaria de conversar sobre meu projeto e combinar uma avaliação no local.`
+      : 'Olá! Vim pelo site da Titanium Serviços Integrados e gostaria de conversar sobre meu projeto e combinar uma avaliação no local.',
   )}`;
 }

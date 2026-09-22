@@ -110,11 +110,11 @@ export default function Home() {
         <a
           className="brand-lockup"
           href="#inicio"
-          aria-label="Titânio — início"
+          aria-label="Titanium Serviços Integrados — início"
         >
           <span className="brand-mark">T</span>
           <span>
-            <strong>TITÂNIO</strong>
+            <strong>TITANIUM</strong>
             <small>Serviços integrados</small>
           </span>
         </a>
@@ -205,7 +205,7 @@ export default function Home() {
               </a>
             </figcaption>
             <p className="photo-context">
-              Fotografia de banco de imagens; não retrata a equipe da Titânio.
+              Fotografia de banco de imagens; não retrata a equipe da Titanium.
             </p>
           </figure>
           <div className="trust-rail lg:col-span-2">
@@ -246,7 +246,7 @@ export default function Home() {
             </div>
           </div>
           <p className="service-reference-note">
-            Fotos de trabalhos reais da Titânio. Na categoria de estruturas
+            Fotos de trabalhos reais da Titanium. Na categoria de estruturas
             metálicas, mantivemos a referência visual selecionada.
           </p>
           <div className="service-photo-grid">
@@ -386,7 +386,7 @@ export default function Home() {
           <h2>
             Vamos conversar <span>sobre sua obra?</span>
           </h2>
-          <p>Fale direto com a Titânio e combine os próximos passos.</p>
+          <p>Fale direto com a Titanium e combine os próximos passos.</p>
           <div className="final-cta-actions">
             <a
               className="final-cta-primary"
@@ -408,15 +408,11 @@ export default function Home() {
       <footer className="site-footer">
         <div className="section-shell footer-inner">
           <div className="brand-lockup">
-            <img
-              className="footer-logo"
-              src="/titanium-logo.png"
-              alt="Logotipo Titanium Serviço"
-              width={860}
-              height={859}
-            />
+            <span className="brand-mark" aria-hidden="true">
+              T
+            </span>
             <span>
-              <strong>TITÂNIO</strong>
+              <strong>TITANIUM</strong>
               <small>Serviços integrados</small>
             </span>
           </div>
@@ -453,7 +449,7 @@ export default function Home() {
         href={whatsappUrl}
         target="_blank"
         rel="noreferrer"
-        aria-label="Conversar com a Titânio no WhatsApp"
+        aria-label="Conversar com a Titanium no WhatsApp"
       >
         <MessageCircle aria-hidden="true" size={24} />
         <span>Fale com a gente</span>
