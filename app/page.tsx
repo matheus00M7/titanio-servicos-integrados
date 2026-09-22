@@ -230,8 +230,8 @@ export default function Home() {
             </div>
           </div>
           <p className="service-reference-note">
-            Fotos de referência dos tipos de serviço. Não são obras realizadas
-            pela Titânio.
+            Fotos de trabalhos reais da Titânio. Na categoria de estruturas
+            metálicas, mantivemos a referência visual selecionada.
           </p>
           <div className="service-photo-grid">
             {services.map(({ photoKey, title, description }, index) => {
@@ -257,20 +257,6 @@ export default function Home() {
                         decoding="async"
                       />
                     </div>
-                    <figcaption>
-                      <a href={photo.source} target="_blank" rel="noreferrer">
-                        Foto: {photo.author}
-                      </a>
-                      {photo.license ? (
-                        <a
-                          href={photo.license.url}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          {photo.license.name}
-                        </a>
-                      ) : null}
-                    </figcaption>
                   </figure>
                   <div className="photo-service-body">
                     <p className="photo-service-kicker">
@@ -416,6 +402,20 @@ export default function Home() {
               <MessageCircle aria-hidden="true" size={17} /> WhatsApp
             </a>
           </div>
+          <details className="image-credits">
+            <summary>Créditos de imagem</summary>
+            <p>
+              Imagem ilustrativa de estruturas metálicas:{' '}
+              <a
+                href="https://commons.wikimedia.org/wiki/File:Prefab-Warehouse-Mezzanine.jpg"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Syibeehive
+              </a>{' '}
+              — CC BY-SA 4.0.
+            </p>
+          </details>
         </div>
       </footer>
       <a

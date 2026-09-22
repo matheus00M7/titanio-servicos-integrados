@@ -38,6 +38,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { Button } from '@/components/ui/button';
 import {
   categories,
+  featuredProjects,
   instagramUrl,
   photoUrl,
   quoteUrl,
@@ -181,8 +182,8 @@ function ProjectViewerContent({ project, open, onClose }: ViewerProps) {
 }
 
 export function PortfolioGallery() {
-  const [projects, setProjects] = useState<Project[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [projects, setProjects] = useState<Project[]>(featuredProjects);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [filter, setFilter] = useState('Todos');
   const [selected, setSelected] = useState<Project | null>(null);
@@ -194,9 +195,19 @@ export function PortfolioGallery() {
         if (!response.ok) throw new Error('Falha');
         return response.json();
       })
-      .then((data) => setProjects((data as { projects: Project[] }).projects))
+      .then((data) => {
+        const managed = (data as { projects: Project[] }).projects;
+        setProjects([
+          ...featuredProjects,
+          ...managed.filter(
+            (project) =>
+              !featuredProjects.some((featured) => featured.id === project.id),
+          ),
+        ]);
+      })
       .catch((err) => {
-        if (err.name !== 'AbortError') setError(true);
+        if (err.name !== 'AbortError' && featuredProjects.length === 0)
+          setError(true);
       })
       .finally(() => {
         if (!controller.signal.aborted) setLoading(false);
@@ -276,7 +287,7 @@ export function PortfolioGallery() {
             </EmptyHeader>
             <Button
               onClick={() => {
-                setLoading(true);
+                setLoading(projects.length === 0);
                 setError(false);
                 setRetry((n) => n + 1);
               }}

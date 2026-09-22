@@ -18,8 +18,90 @@ export type Project = {
   created_at: string;
   updated_at: string;
 };
+
+export const featuredProjects: Project[] = [
+  {
+    id: 'titanio-escada-corrimaos',
+    title: 'Escada metálica com corrimãos e proteção lateral',
+    category: 'Corrimãos e escadas',
+    description:
+      'Escada metálica com corrimãos contínuos e fechamento lateral em tela para uma circulação mais protegida.',
+    location: '',
+    images: [
+      '/trabalhos/escada-metalica-preta.jpeg',
+      '/trabalhos/corrimaos-escada-verde.jpeg',
+    ],
+    published: true,
+    created_at: '2026-09-14T20:42:37.000Z',
+    updated_at: '2026-09-14T20:42:37.000Z',
+  },
+  {
+    id: 'titanio-gradil-branco',
+    title: 'Gradil metálico para área externa',
+    category: 'Portões e serralheria',
+    description:
+      'Gradil metálico branco para fechamento e proteção do perímetro externo.',
+    location: '',
+    images: ['/trabalhos/gradil-branco.jpeg'],
+    published: true,
+    created_at: '2026-09-14T20:42:35.000Z',
+    updated_at: '2026-09-14T20:42:35.000Z',
+  },
+  {
+    id: 'titanio-portao-residencial',
+    title: 'Conjunto de portões metálicos sob medida',
+    category: 'Portões e serralheria',
+    description:
+      'Portões de garagem e acesso social fabricados em metal, com desenho coordenado e acabamento cinza.',
+    location: '',
+    images: ['/trabalhos/portao-metalico-cinza.jpeg'],
+    published: true,
+    created_at: '2026-09-14T20:43:43.000Z',
+    updated_at: '2026-09-14T20:43:43.000Z',
+  },
+  {
+    id: 'titanio-estrutura-galpao',
+    title: 'Estrutura metálica para galpão',
+    category: 'Estruturas metálicas',
+    description:
+      'Montagem de treliças e estrutura metálica de galpão em diferentes etapas da obra.',
+    location: '',
+    images: [
+      '/trabalhos/estrutura-galpao-trelicas.jpeg',
+      '/trabalhos/estrutura-metalica-industrial.jpeg',
+    ],
+    published: true,
+    created_at: '2026-09-14T20:47:44.000Z',
+    updated_at: '2026-09-14T20:47:44.000Z',
+  },
+  {
+    id: 'titanio-cobertura-metalica',
+    title: 'Cobertura com treliças metálicas',
+    category: 'Coberturas',
+    description:
+      'Estrutura de cobertura em treliças metálicas com fechamento em telhas.',
+    location: '',
+    images: ['/trabalhos/cobertura-metalica.jpeg'],
+    published: true,
+    created_at: '2026-09-14T20:47:59.000Z',
+    updated_at: '2026-09-14T20:47:59.000Z',
+  },
+  {
+    id: 'titanio-mobiliario-metalico',
+    title: 'Mesa e bancos com estrutura metálica',
+    category: 'Portões e serralheria',
+    description:
+      'Conjunto de mesa e bancos com bases metálicas e acabamento em preto e branco.',
+    location: '',
+    images: ['/trabalhos/mobiliario-metalico.jpeg'],
+    published: true,
+    created_at: '2026-09-14T20:43:39.000Z',
+    updated_at: '2026-09-14T20:43:39.000Z',
+  },
+];
+
 export const photoUrl = (key: string) =>
-  `/api/fotos/${encodeURIComponent(key)}`;
+  key.startsWith('/') ? key : `/api/fotos/${encodeURIComponent(key)}`;
 export const instagramUrl = 'https://www.instagram.com/titaniumserralheria/';
 export function quoteUrl(subject?: string) {
   return `https://wa.me/5511948507339?text=${encodeURIComponent(
