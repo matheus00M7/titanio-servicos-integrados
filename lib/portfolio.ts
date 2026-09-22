@@ -102,7 +102,8 @@ export const featuredProjects: Project[] = [
 
 export const photoUrl = (key: string) =>
   key.startsWith('/') ? key : `/api/fotos/${encodeURIComponent(key)}`;
-export const instagramUrl = 'https://www.instagram.com/titaniumserralheria/';
+export const instagramHandle = 'titanium.s.integrados';
+export const instagramUrl = `https://www.instagram.com/${instagramHandle}/`;
 export function quoteUrl(subject?: string) {
   return `https://wa.me/5511948507339?text=${encodeURIComponent(
     subject

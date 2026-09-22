@@ -13,7 +13,7 @@ import {
   ShieldCheck,
 } from 'lucide-react';
 import { MobileMenu, PortfolioGallery } from '@/components/portfolio-gallery';
-import { instagramUrl, quoteUrl } from '@/lib/portfolio';
+import { instagramHandle, instagramUrl, quoteUrl } from '@/lib/portfolio';
 import {
   weldingPhoto,
   servicePhotos,
@@ -185,7 +185,7 @@ export default function Home() {
                 rel="noreferrer"
               >
                 <AtSign aria-hidden="true" className="text-gold" size={17} />{' '}
-                @titaniumserralheria
+                @{instagramHandle}
               </a>
             </div>
           </div>
@@ -422,7 +422,7 @@ export default function Home() {
           </div>
           <div className="footer-links">
             <a href={instagramUrl} target="_blank" rel="noreferrer">
-              <AtSign aria-hidden="true" size={17} /> @titaniumserralheria
+              <AtSign aria-hidden="true" size={17} /> @{instagramHandle}
             </a>
             <a href={whatsappUrl} target="_blank" rel="noreferrer">
               <MessageCircle aria-hidden="true" size={17} /> WhatsApp
