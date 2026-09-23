@@ -5,7 +5,7 @@ import './portfolio.css';
 export const metadata: Metadata = {
   title: 'Titanium Serviços Integrados | Serralheria e Estruturas Metálicas',
   description:
-    'Serralheria, corrimãos, escadas, coberturas, estruturas metálicas e reformas em toda a Grande São Paulo.',
+    'Portões basculantes, gradis, corrimãos, escadas, coberturas, estruturas metálicas e reformas em toda a Grande São Paulo.',
   icons: { icon: '/favicon.svg' },
 };
 

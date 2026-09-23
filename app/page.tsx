@@ -146,7 +146,7 @@ export default function Home() {
         <div className="hero-inner relative mx-auto grid w-full max-w-[1440px] items-center gap-10 px-5 py-12 sm:px-8 lg:grid-cols-[1.15fr_.85fr] lg:px-12 lg:py-14 xl:px-16">
           <div className="relative z-10 max-w-[750px]">
             <p className="eyebrow">
-              <span /> Sob medida • Grande São Paulo
+              <span /> Portão basculante • Gradil • Grande São Paulo
             </p>
             <h1 className="hero-title mt-7">
               Corrimãos, escadas e <span>estruturas metálicas.</span>
