@@ -219,6 +219,22 @@
   font-size: clamp(2.75rem, 4vw, 4.25rem);
   line-height: 1.04;
 }
+.hero-title--services .hero-title-line {
+  display: block;
+  color: #f7f7f5;
+  text-shadow: none;
+}
+.hero-title--services .hero-title-line + .hero-title-line {
+  margin-top: 0.12em;
+}
+.hero-title--services .hero-title-line--middle {
+  font-size: 0.68em;
+  letter-spacing: -0.035em;
+}
+.hero-title--services .hero-title-line--accent {
+  color: var(--gold);
+  font-size: 0.75em;
+}
 .photo-context {
   padding: 0 1rem 0.9rem;
   color: #b7bfc3;
@@ -1286,6 +1302,9 @@
 @media (max-width: 760px) {
   .hero-title {
     font-size: clamp(2.2rem, 7.8vw, 3.4rem);
+  }
+  .hero-title--services .hero-title-line:first-child {
+    font-size: 0.76em;
   }
   .section-title {
     font-size: clamp(2.15rem, 7vw, 3rem);

@@ -148,9 +148,14 @@ export default function Home() {
             <p className="eyebrow">
               <span /> Sob medida • Grande São Paulo
             </p>
-            <h1 className="hero-title mt-7">
-              Corrimãos, escadas, portões basculantes, gradis e{' '}
-              <span>estruturas metálicas.</span>
+            <h1 className="hero-title hero-title--services mt-7">
+              <span className="hero-title-line">Portão basculante,</span>{' '}
+              <span className="hero-title-line hero-title-line--middle">
+                escadas, corrimãos, gradil
+              </span>{' '}
+              <span className="hero-title-line hero-title-line--accent">
+                e estruturas metálicas.
+              </span>
             </h1>
             <p className="mt-7 max-w-[640px] text-[1.05rem] leading-8 text-zinc-300 sm:text-lg">
               Fabricação e instalação para condomínios, empresas e residências.
