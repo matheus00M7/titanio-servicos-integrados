@@ -216,7 +216,7 @@
   letter-spacing: -0.045em;
 }
 .hero-title {
-  font-size: clamp(2.75rem, 4.5vw, 4.6rem);
+  font-size: clamp(2.75rem, 4vw, 4.25rem);
   line-height: 1.04;
 }
 .photo-context {
@@ -1285,7 +1285,7 @@
 }
 @media (max-width: 760px) {
   .hero-title {
-    font-size: clamp(2.5rem, 8.6vw, 3.8rem);
+    font-size: clamp(2.2rem, 7.8vw, 3.4rem);
   }
   .section-title {
     font-size: clamp(2.15rem, 7vw, 3rem);
